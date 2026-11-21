@@ -78,7 +78,7 @@ if not is_valid:
 Caso sua organização desenvolva agentes autônomos de atendimento (WhatsApp/Telegram/Web), sistemas RAG sensíveis ou necessite de auditoria perimetral de IA corporativa:
 
 * **Portal Corporativo:** [TAVARDT Brasil](https://ag.tavardt.com/br/super-intelligence/)
-* **Atendimento Técnico Especializado:** [Agendar Consulta com a Engenharia](https://ag.tavardt.com/br/contato/)
+* **Atendimento Técnico Especializado:** [Entrar em Contato com a Engenharia](https://ag.tavardt.com/br/contato/)
 
 ---
 
