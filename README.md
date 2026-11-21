@@ -7,7 +7,7 @@
 
 Blueprint declarativo e middleware de código aberto para mitigação de Prompt Injection (OWASP LLM01), fuga de system prompt e ataques adversariais em agentes de IA, em conformidade com a LGPD e o Marco Legal da IA.
 
-Desenvolvido e mantido pela equipe de engenharia e inteligência artificial da **[TAVARDT Brasil](https://ag.tavardt.com/br/super-intelligence/)**.
+Desenvolvido e mantido pela equipe de engenharia da **[TAVARDT Brasil](https://ag.tavardt.com/br/super-intelligence/)**.
 
 ---
 
@@ -42,7 +42,7 @@ Antes de colocar agentes cognitivos em contato com clientes ou sistemas internos
 
 ## 4. Instalação & Guia de Uso Rápido
 
-### Clone & Execução
+### Clonar & Executar
 
 ```bash
 git clone https://github.com/TAVARDT-Brasil/owasp-llm-guardrails-template.git
@@ -50,7 +50,7 @@ cd owasp-llm-guardrails-template
 python examples/quickstart.py
 ```
 
-### Exemplo de Integração
+### Exemplo de Integração em Python
 
 ```python
 from guardrails.validator import LLMGuardrail
@@ -60,7 +60,7 @@ guard = LLMGuardrail()
 # 1. Validação de Ingress (Input Guardrail)
 is_safe, error = guard.validate_input(user_input)
 if not is_safe:
-    raise ValueError(f"Blocked input: {error}")
+    raise ValueError(f"Entrada bloqueada por padrão suspeito: {error}")
 
 # 2. Injeção de Canary no Prompt de Sistema
 hardened_system_prompt = guard.get_canary_injection_prompt(system_prompt)
@@ -68,7 +68,7 @@ hardened_system_prompt = guard.get_canary_injection_prompt(system_prompt)
 # 3. Validação de Egress (Output Guardrail)
 is_valid, leak_error = guard.validate_output(completion)
 if not is_valid:
-    raise SecurityError("System prompt leak detected!")
+    raise SecurityError("Falha crítica: Vazamento de system prompt detectado!")
 ```
 
 ---
