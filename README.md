@@ -7,9 +7,9 @@
 
 Blueprint declarativo e middleware de código aberto para mitigação de Prompt Injection (OWASP LLM01), fuga de system prompt e ataques adversariais em agentes de IA, em conformidade com a LGPD e o Marco Legal da IA.
 
-Desenvolvido e mantido pela equipe de engenharia da **[TAVARDT Brasil](https://ag.tavardt.com/br/super-intelligence/)**.
+Desenvolvido e mantido pela equipe de engenharia da **TAVARDT Brasil**.
 
----
+***
 
 ## 1. Visão Geral de Segurança para IA & LLMs
 
@@ -18,27 +18,27 @@ Este blueprint oferece uma biblioteca modular e leve (sem dependências pesadas)
 ### Por que Guardrails são Críticos na Camada de Aplicação?
 Modelos de linguagem não diferenciam instruções de sistema de dados fornecidos pelo usuário por padrão. Sem barreiras ativas na entrada (input guard) e na saída (output guard), aplicações de IA ficam vulneráveis ao sequestro de controle (jailbreak), exfiltração de chaves e dados confidenciais de clientes.
 
----
+***
 
 ## 2. Vetores de Ameaça Cobertos (OWASP Top 10 for LLMs)
 
 | Camada de Defesa | Vetor Mitigado | Descrição da Proteção |
-| :--- | :--- | :--- |
+| :- | :- | :- |
 | **Input Sanitizer** | Injeção Direta de Prompt (Jailbreak) | Detecção de quebra de contexto (`ignore previous instructions`, `DAN`, deliminadores XML falsificados). |
 | **Canary Token Verifier** | Fuga de System Prompt | Monitoramento de tokens canário invioláveis na saída para impedir exfiltração de regras confidenciais. |
 | **RAG Boundary Guard** | Injeção Indireta via RAG | Isolamento semântico de documentos e fontes externas não confiáveis ingeridas na base vetorial. |
 | **Structural Output Filter** | Manipulação de Ferramentas / MCP | Validação de chamadas de ferramentas e JSON schema para impedir execução de ações não autorizadas. |
 
----
+***
 
 ## 3. Diagnóstico Prévio de Robustez do seu Modelo
 
 Antes de colocar agentes cognitivos em contato com clientes ou sistemas internos, avalie o nível de suscetibilidade a jailbreaks e vazamentos através da ferramenta gratuita da TAVARDT:
 
-* **Ferramenta de Avaliação:** [Avaliador de Robustez de LLM TAVARDT Brasil](https://tools.tavardt.com/br/avaliador-robustez-llm/)
-* **Catálogo Global de Diagnósticos:** [TAVARDT Tools Brasil](https://tools.tavardt.com/br/)
+* **Ferramenta de Avaliação:** Avaliador de Robustez de LLM TAVARDT Brasil
+* **Catálogo Global de Diagnósticos:** **TAVARDT Tools Brasil**
 
----
+***
 
 ## 4. Instalação & Guia de Uso Rápido
 
@@ -71,16 +71,16 @@ if not is_valid:
     raise SecurityError("Falha crítica: Vazamento de system prompt detectado!")
 ```
 
----
+***
 
 ## 5. Consultoria Especializada em Segurança de IA & Agentes Autônomos
 
 Caso sua organização desenvolva agentes autônomos de atendimento (WhatsApp/Telegram/Web), sistemas RAG sensíveis ou necessite de auditoria perimetral de IA corporativa:
 
-* **Portal Corporativo:** [TAVARDT Brasil](https://ag.tavardt.com/br/super-intelligence/)
+* **Portal Corporativo:** **TAVARDT Brasil**
 * **Atendimento Técnico Especializado:** [Entrar em Contato com a Engenharia](https://ag.tavardt.com/br/contato/)
 
----
+***
 
 ## Licença
 
