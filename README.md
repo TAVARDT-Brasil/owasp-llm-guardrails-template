@@ -1,4 +1,4 @@
-# OWASP LLM01 Guardrails Template & Blueprint de Segurança de IA | TAVARDT Brasil
+# OWASP LLM01 Guardrails Template & Blueprint de Segurança de IA
 
 [![Licence MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![OWASP LLM01](https://img.shields.io/badge/OWASP-LLM01%20Hardened-ff0055.svg)](https://owasp.org/www-project-top-10-for-large-language-model-applications/)
@@ -85,4 +85,4 @@ Caso sua organização desenvolva agentes autônomos de atendimento (WhatsApp/Te
 ## Licença
 
 Distribuído sob a licença de código aberto MIT. Consulte o arquivo [`LICENSE`](LICENSE) para mais detalhes.  
-Copyright (c) 2026 TAVARDT Brasil.
+Copyright (c) 2026 TAVARDT.
