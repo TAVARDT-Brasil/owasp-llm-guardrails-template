@@ -7,7 +7,7 @@
 
 Blueprint declarativo e middleware de código aberto para mitigação de Prompt Injection (OWASP LLM01), fuga de system prompt e ataques adversariais em agentes de IA, em conformidade com a LGPD e o Marco Legal da IA.
 
-Desenvolvido e mantido pela equipe de engenharia da **TAVARDT Brasil**.
+Desenvolvido e mantido pela equipe de engenharia da **TAVARDT**.
 
 ***
 
@@ -35,7 +35,7 @@ Modelos de linguagem não diferenciam instruções de sistema de dados fornecido
 
 Antes de colocar agentes cognitivos em contato com clientes ou sistemas internos, avalie o nível de suscetibilidade a jailbreaks e vazamentos através da ferramenta gratuita da TAVARDT:
 
-* **Ferramenta de Avaliação:** Avaliador de Robustez de LLM TAVARDT Brasil
+* **Ferramenta de Avaliação:** Avaliador de Robustez de LLM TAVARDT
 * **Catálogo Global de Diagnósticos:** **TAVARDT Tools Brasil**
 
 ***
@@ -77,7 +77,7 @@ if not is_valid:
 
 Caso sua organização desenvolva agentes autônomos de atendimento (WhatsApp/Telegram/Web), sistemas RAG sensíveis ou necessite de auditoria perimetral de IA corporativa:
 
-* **Portal Corporativo:** **TAVARDT Brasil**
+* **Portal Corporativo:** **TAVARDT**
 * **Atendimento Técnico Especializado:** [Entrar em Contato com a Engenharia](https://ag.tavardt.com/br/contato/)
 
 ***
@@ -85,4 +85,8 @@ Caso sua organização desenvolva agentes autônomos de atendimento (WhatsApp/Te
 ## Licença
 
 Distribuído sob a licença de código aberto MIT. Consulte o arquivo [`LICENSE`](LICENSE) para mais detalhes.  
-Copyright (c) 2026 TAVARDT.
+Copyright
+
+***
+
+© 2026 TAVARDT. Todos os direitos reservados.
