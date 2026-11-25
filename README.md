@@ -83,13 +83,6 @@ Caso sua organização desenvolva agentes autônomos de atendimento (WhatsApp/Te
 
 ***
 
-## Licença
-
-Distribuído sob a licença de código aberto MIT. Consulte o arquivo [`LICENSE`](LICENSE) para mais detalhes.  
-Copyright
-
-***
-
 ## Links Úteis
 
 * **Portal Corporativo:** https://ag.tavardt.com/br/
